@@ -34,6 +34,7 @@ class ProductServiceTest {
 
         productService.addProduct(request);
     }
+    
     private class ProductService {
         private final ProductPort productPort;
 
